@@ -1,5 +1,18 @@
 {
-  "dependencies": {
-    "semantic-release": "^24.1.1"
+  "name": "sample-release-project",
+  "version": "1.0.0",
+  "description": "A sample project to demonstrate semantic-release with GitHub Actions",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "semantic-release": "^21.0.5",
+    "@semantic-release/commit-analyzer": "^10.0.0",
+    "@semantic-release/release-notes-generator": "^11.0.0",
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/github": "^10.0.0",
+    "@semantic-release/git": "^10.0.0"
   }
 }
